@@ -19,6 +19,7 @@ class PROJECTUDN_API ULoginWidget : public UUserWidget
 {
 	GENERATED_BODY()
 
+public:
     UPROPERTY(BlueprintReadWrite, Category = Test)
         UEditableText* Id;
 
